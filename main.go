@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/devrealsolomon/golang-test-api/server"
-	"github.com/devrealsolomon/golang-test-api/utils"
+	"github.com/devrealsolomon/paybridge/server"
+	"github.com/devrealsolomon/paybridge/utils"
 )
 
 func main() {
