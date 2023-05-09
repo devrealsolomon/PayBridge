@@ -1,4 +1,4 @@
-module github.com/WeDias/golang-test-api
+module github.com/devrealsolomon/paybridge
 
 go 1.18
 

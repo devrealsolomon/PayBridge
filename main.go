@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/WeDias/golang-test-api/server"
-	"github.com/WeDias/golang-test-api/utils"
+	"github.com/devrealsolomon/golang-test-api/server"
+	"github.com/devrealsolomon/golang-test-api/utils"
 )
 
 func main() {
