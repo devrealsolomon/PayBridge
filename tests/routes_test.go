@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/WeDias/golang-test-api/server"
+	"github.com/devrealsolomon/PayBridge/server"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/WeDias/golang-test-api/utils"
+	"github.com/devrealsolomon/PayBridge/utils"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

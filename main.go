@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/devrealsolomon/paybridge/server"
-	"github.com/devrealsolomon/paybridge/utils"
+	"github.com/devrealsolomon/PayBridge/server"
+	"github.com/devrealsolomon/PayBridge/utils"
 )
 
 func main() {

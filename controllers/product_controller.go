@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/WeDias/golang-test-api/entities"
-	"github.com/WeDias/golang-test-api/services"
+	"github.com/devrealsolomon/PayBridge/entities"
+	"github.com/devrealsolomon/PayBridge/services"
 	"github.com/gofiber/fiber/v2"
 )
 

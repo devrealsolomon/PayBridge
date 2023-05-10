@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/WeDias/golang-test-api/controllers"
+	"github.com/devrealsolomon/PayBridge/controllers"
 	"github.com/gofiber/fiber/v2"
 )
 

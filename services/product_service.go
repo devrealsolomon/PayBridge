@@ -3,9 +3,9 @@ package services
 import (
 	"errors"
 
-	"github.com/WeDias/golang-test-api/database"
-	"github.com/WeDias/golang-test-api/entities"
-	"github.com/WeDias/golang-test-api/utils"
+	"github.com/devrealsolomon/PayBridge/database"
+	"github.com/devrealsolomon/PayBridge/entities"
+	"github.com/devrealsolomon/PayBridge/utils"
 )
 
 func NewProduct(product *entities.Product) (*entities.Product, error) {
