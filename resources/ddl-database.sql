@@ -3,7 +3,6 @@ create table if not exists product (
     pro_name varchar not null,
     pro_price numeric(12, 2) not null,
     pro_available_stock integer not null,
-
     constraint products_pro_cod_pkey primary key (pro_cod),
     constraint products_pro_name_ukey unique (pro_name),
     constraint products_pro_name_check check (pro_name <> ''),
@@ -17,9 +16,11 @@ create table if not exist user (
     usr_name varchar(255) not null,
     usr_phone varchar(255) not null,
     usr_email varchar(255) not null,
-
     constraint users_usr_cod primary key (usr_cod),
     constraint users_usr_username_ukey unique (usr_username),
+    constraint users_usr_username_check check (usr_username <> ''),
     constraint users_usr_phone_ukey unique (usr_phone),
+    constraint users_usr_phone_check check (usr_phone <> ''),
     constraint users_usr_email_ukey unique (usr_email)
+    constraint users_usr_email_check check (usr_email <> ''),
 )
