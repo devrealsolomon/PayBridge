@@ -38,3 +38,5 @@ require (
 	golang.org/x/text v0.3.7
 	gorm.io/driver/sqlite v1.3.1
 )
+
+require github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
